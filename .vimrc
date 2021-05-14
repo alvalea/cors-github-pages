@@ -1,0 +1,1 @@
+/home/al/al/mylinux/ng/.vimrc
