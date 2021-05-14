@@ -1,5 +1,5 @@
 build:
-	ng build
+	ng build --no-progress
 
 test:
-	ng test --no-watch
+	ng test --no-watch --no-progress
