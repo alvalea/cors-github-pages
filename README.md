@@ -18,4 +18,9 @@ nvm ls
 npm install -g @angular/cli
 ```
 
+# Create ng project #
+
+```
+ng new ng-example
+```
 
