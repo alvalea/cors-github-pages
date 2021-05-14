@@ -24,3 +24,8 @@ npm install -g @angular/cli
 ng new ng-example
 ```
 
+# Install karma firefox launcher #
+
+```
+npm install karma-firefox-launcher
+```
