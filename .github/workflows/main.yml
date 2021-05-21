@@ -15,4 +15,4 @@ jobs:
 
       - name: Test
         run: |
-          npm test -- --no-watch --no-progress
+          npm test -- --no-watch --no-progress --code-coverage
