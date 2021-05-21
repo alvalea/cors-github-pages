@@ -29,3 +29,15 @@ ng new ng-example
 ```
 npm install karma-firefox-launcher
 ```
+
+# Clone repository #
+
+```
+git clone git@github.com:alvalea/ng-example.git
+```
+
+Install npm dependencies, because node_modules is not in the repository
+
+```
+npm install
+```
