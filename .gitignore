@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+./dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
@@ -9,6 +10,7 @@
 
 # dependencies
 /node_modules
+./node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -34,6 +36,7 @@ chrome-profiler-events*.json
 /.sass-cache
 /connect.lock
 /coverage
+./coverage
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
@@ -43,3 +46,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# GitHub Pages
+./docs
