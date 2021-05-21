@@ -49,3 +49,6 @@ Thumbs.db
 
 # GitHub Pages
 ./docs
+
+# SearchDB
+.searchdb
