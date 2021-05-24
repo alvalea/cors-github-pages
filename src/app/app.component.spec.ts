@@ -1,12 +1,19 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
+import { HelloService } from './hello.service';
+import { asyncData } from './testing/async-observable-helpers';
+
 describe('AppComponent', () => {
+  let helloServiceSpy: jasmine.SpyObj<HelloService>;
+
   beforeEach(async () => {
+    helloServiceSpy = jasmine.createSpyObj('HelloService', ['hello']);
+    helloServiceSpy.hello.and.returnValue(asyncData('test'));
+
     await TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
+      declarations: [ AppComponent ],
+      providers: [ {provide: HelloService, useValue: helloServiceSpy}]
     }).compileComponents();
   });
 
