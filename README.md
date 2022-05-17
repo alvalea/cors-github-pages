@@ -42,5 +42,5 @@ Install npm dependencies, because node_modules is not in the repository
 npm install
 ```
 
-# Connected to cors-example #
-https://github.com/alvalea/cors-example
+# Connected to cors-heroku #
+https://github.com/alvalea/cors-heroku
