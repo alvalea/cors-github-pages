@@ -1,3 +1,6 @@
+# Client for cors-heroku #
+https://github.com/alvalea/cors-heroku
+
 # Install nvm #
 
 ```
@@ -41,6 +44,3 @@ Install npm dependencies, because node_modules is not in the repository
 ```
 npm install
 ```
-
-# Connected to cors-heroku #
-https://github.com/alvalea/cors-heroku
